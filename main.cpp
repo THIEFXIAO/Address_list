@@ -21,7 +21,6 @@ int main( )
 		{
 		case 1:
 			Write_Contact(Person, &length);
-			cout << "联系人已保存" << endl;
 			break;
 		case 2:
 			Show_Contact(Person, length);

@@ -37,5 +37,6 @@ void Write_Contact(Contacts* arr, int* length)
 		cout << "请输入要添加的联系人地址:" << endl;
 		cin >> arr[*length].home_address;	
 		(*length)++;
+		cout << "联系人已保存" << endl;
 	}	
 }

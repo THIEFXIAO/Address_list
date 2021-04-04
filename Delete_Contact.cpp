@@ -2,8 +2,15 @@
 
 void Delete_Contact(Contacts* arr, int length,int position)
 {
-	for (int i = position; i < length + 1; i++)
+	if (position + 1 == length)
 	{
-		arr[i] = arr[i + 1];
+		return;
+	}
+	else
+	{
+		for (int i = position; i < length - 1; i++)
+		{
+			arr[i] = arr[i + 1];
+		}
 	}
 }
